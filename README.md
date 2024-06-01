@@ -1,6 +1,8 @@
 # Corona Virus Analysis
 ## Analyzing the global effects of Corona Virus from January 2020 to June 2021.
 
+The COVID-19 pandemic, which swept across the globe from early 2020 onwards, had profound and far-reaching effects on societies, economies, and healthcare systems worldwide. It led to widespread disruptions in daily life, severe strains on healthcare infrastructure, and significant socio-economic impacts. This analysis report examines the trajectory of confirmed cases, fatalities, and recoveries from COVID-19 across different countries during the critical period of 2020 to 2021, shedding light on the varying impacts and responses observed globally.
+
 # About the Internship:
 
 * Organization: Mentorness

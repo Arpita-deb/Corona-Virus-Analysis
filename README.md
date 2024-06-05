@@ -57,6 +57,12 @@ The Dataset contains 78387 rows and 8 columns that provides information about th
 
 # Data Cleaning:
 
+1. I created a copy of the original CSV file as an Excel worksheet.
+2. First I checked for null values using a Conditional Formatting. It returned zero null values.
+3. Then I checked for duplicate entries using Remove Duplicate tool. There were no duplicate entries.
+4. I changed the format of the Date column from General to Date.
+5. Similarly I changed the format of Confirmed, Deaths and Recovered columns from General to Number, with no decimal places.
+6. Finally I saved and imported this Excel workbook into Microsoft SQL Server. 
 
 # Data Exploration:
 

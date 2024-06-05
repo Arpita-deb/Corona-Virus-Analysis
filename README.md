@@ -62,37 +62,77 @@ The Dataset contains 78387 rows and 8 columns that provides information about th
 
 I am tasked to find answers to these 16 questions using SQL queries. So here I'll provide the answers.
 
--- Q1. Write a code to check NULL values.
+### Q1. Write a code to check NULL values.
 
--- Q2. If NULL values are present, update them with zeros for all columns. 
+  ![1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/e22d3aeb-546a-435a-88f9-467a754a381b)
 
--- Q3. check total number of rows.
+### Q2. If NULL values are present, update them with zeros for all columns. 
 
--- Q4. Check what is start_date and end_date.
+  There were no Null values present in the dataset.
 
--- Q5. Number of month present in dataset.
+### Q3. Check the total number of rows.
 
--- Q6. Find monthly average for confirmed, deaths, recovered.
+  ![3](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/481be551-b253-4c73-a995-1991ad2386d3)
 
--- Q7. Find most frequent value for confirmed, deaths, recovered each month. 
+### Q4. What are the start and end date in this dataset.
 
--- Q8. Find minimum values for confirmed, deaths, recovered per year.
+  ![4](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/fa38b1f0-7085-4a78-bb7d-410e1a2860e0)
 
--- Q9. Find maximum values of confirmed, deaths, recovered per year.
+### Q5. Find the number of month present in the dataset.
 
--- Q10. The total number of case of confirmed, deaths, recovered each month.
+  ![5](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/7a806a4c-ee6f-4f59-9b86-bc4a149ec392)
 
--- Q11. Check how corona virus spread out with respect to confirmed case (e.g., total confirmed cases, their average, variance & Standard Deviation).
+### Q6. Find monthly average for confirmed, deaths, recovered.
 
--- Q12. Check how corona virus spread out with respect to death case per month (e.g., total confirmed cases, their average, variance & Standard Deviation).
+  ![6](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/bc798c5a-6e56-42a4-a8cb-76b8ac31b177)
 
--- Q13. Check how corona virus spread out with respect to recovered case (e.g., total confirmed cases, their average, variance & Standard Deviation).
+### Q7. Find most frequent value for confirmed, deaths, recovered each month. 
 
--- Q14. Find Country having highest number of the Confirmed case.
+  ![7](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/867a67d0-4932-4ea6-815c-ef92003c8236)
 
--- Q15. Find Country having lowest number of the death case.
+  ![7 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/8ec2337b-4305-4e61-b57f-faed891e7d6a)
 
--- Q16. Find top 5 countries having highest recovered case.
+### Q8. Find the minimum values for confirmed, deaths, recovered per year.
+
+  ![8](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/4767b9e6-326d-4b6f-a5d2-f1ef3ad5ba2d)
+
+### Q9. Find the maximum values of confirmed, deaths, recovered per year.
+
+  ![9](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/6d081b5e-0b41-4a5f-b215-dde3c2c738f1)
+
+### Q10. Find the total number of case of confirmed, deaths, recovered each month.
+
+  ![10](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/7a52c6db-9ea9-458a-a9ae-ca4fa49c4f41)
+
+### Q11. Check how Corona Virus spread out with respect to confirmed case per month (e.g., total confirmed cases, their average, variance & Standard Deviation).
+
+  ![11](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/03c677c2-987c-4b6f-a90b-b9204d79f793)
+
+  ![11 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/9cfd9ddb-912e-4fa5-bc5f-e68b4a8d0c81)
+
+### Q12. Check how Corona Virus spread out with respect to death case per month (e.g., total confirmed cases, their average, variance & Standard Deviation).
+
+  ![12](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/6af52362-8371-4415-ab2c-b5777d7e91a3)
+
+  ![12 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/f07d9626-7174-400a-a3be-001ce21f7bb9)
+
+### Q13. Check how Corona Virus spread out with respect to recovered case per month (e.g., total confirmed cases, their average, variance & Standard Deviation).
+
+  ![13](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/1c6a4b85-ce46-4352-abd9-4451f05c9ddb)
+
+  ![13 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/17b6ec6e-51d9-4f4e-a94c-066972af25c5)
+
+### Q14. Find the Country having the highest number of the Confirmed case.
+
+  ![14](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/990414c2-6eab-4fdd-a6e8-3631da94100e)
+
+### Q15. Find the Country having the lowest number of the death case.
+
+  ![15](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/7e418be9-bcb9-4c43-883b-599afd19426b)
+
+### Q16. Find the top 5 countries having highest recovered case.
+
+  ![16](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/5920af4c-6d14-42ab-9c98-3af934794c47)
 
 # Data Analysis:
 

@@ -97,6 +97,8 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
   ![7](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/867a67d0-4932-4ea6-815c-ef92003c8236)
 
   ![7 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/8ec2337b-4305-4e61-b57f-faed891e7d6a)
+  
+  When I calculated the Mode or the most frequent value of confirmed, death and recovered cases, I found that for all the months the value is 0. Which means that for majority of the records contain no corona cases.
 
 ### Q8. Find the minimum values for confirmed, deaths, recovered per year.
 
@@ -142,10 +144,26 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
 
 # Data Analysis:
 
+![monthly 3 cases line chart](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/de1999a5-2652-412f-8e95-aa525361985e)
 
+![average 3 cases](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/da1c9371-c4e4-4e88-9a89-c70dabc2090c)
+
+![top 10 countrie recovered](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/22e5cdc3-c466-4598-b4ad-f067c234f64d)
+
+![top 10 countries confirmed](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/c5b74056-0947-403e-9215-1ac9890e9ad9)
+
+![top 10 countries death](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/03d4dd07-6c9d-4088-9a75-b55e9e6f1ba1)
+
+![total 3 cases per month](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/bfae7e01-f6ce-4933-9d63-5fddddd31d23)
 
 # Summary of the Result:
 
+I have analyzed 78000 records of Covid 19 cases (Confirmed, Death, Recovered) over __ countries from January 2020 to June 2021 and found the following results:
+1. The trend for covid patients
+2. The % of death cases
+3 The worst affected countries
+4 The lease affected countries
+5. Monthly average trends
 
 
 # Dashboard:

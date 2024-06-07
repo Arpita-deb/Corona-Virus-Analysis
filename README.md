@@ -159,33 +159,24 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
 # Summary of the Result:
 
 I have analyzed 78000 records of Covid 19 cases (Confirmed, Death, Recovered) of 121 countries from January 2020 to June 2021 and found the following results:
-1. The number of confirmed covid patients increased steadily from January 2020 unto July 2020 after which it dipped a bit before increasing rapidly from October to December. In 2021, number of confirmed cases were at peak during January after which it geadually decreases until March and rose again till April.
 
-The same goes for Recovered Cases. As the number of Confirmed corona patients increases so does the recovered patients.
+1. **Confirmed Cases Trend**: From January to July 2020, there was a steady rise in confirmed COVID-19 cases, followed by a slight decline and then a sharp increase from October to December. In 2021, the peak occurred in January, with a subsequent gradual decline until March, before rising again through April.
 
-In case of death cases, we can see a sharp peak at April,2020 indicating an increase in deaths. After that death cases reduces before rising steadily from October till January 2021 when it was at its peak. After that it dropped till March and rose again in May and finally dropped in June.
+2. **Recovery Correlation**: The trend in recovered cases mirrored that of confirmed cases, indicating that as more individuals were diagnosed, a corresponding number of patients recovered.
 
-Looking at the three charts we can notice that when the recovery measures taken up by countries catches up with the confirmed corona cases, meaning they succeed in mitigating the effects of the pandemic the death rate decreases, as can be seen in initial months of Jan to March, again from May to September in 2020 and Feb and March in 2021.
+3. **Death Cases Analysis**: A significant spike in deaths was observed in April 2020. Following this, death cases decreased, only to rise steadily from October 2020 to January 2021, reaching a peak. The numbers then fell until March, rose in May, and declined again in June.
 
-Number of death cases rises as the recovery measures cannot effectively catches up with the rapidly increasing corona cases as can be seen for April 2020, then from Oct 2020 to jan 2021.
+4. **Impact of Recovery Measures**: An analysis of the charts suggests that effective recovery measures led to a decrease in death rates, as evidenced from January to March, May to September in 2020, and February to March in 2021. Conversely, death cases surged when recovery efforts lagged behind the rapid increase in confirmed cases, notably in April 2020 and from October 2020 to January 2021.
 
-2. The % of death and recovered cases
+5. **Monthly Average Trends**: The monthly averages for confirmed, death, and recovered cases showed significant increases in January, April, and from August to December. Conversely, there were decreases in February and June.
 
-We can see that the ratio between death and confirmed cases is rather very small, about 0.0216 or ~2.16% which means that a very little fraction of the total world population has died in this pandemic.
+6. **Death and Recovery Percentages**: The death-to-confirmed case ratio was approximately 2.16%, indicating a relatively small impact on the global population. In contrast, the recovery-to-confirmed case ratio was about 67%, suggesting that a majority of patients recovered.
 
-On the other hand, the ratio between recovered and confirmed cases is about 0.6689 or ~ 67%. That is about 67% of the corona patients recovered.
+7. **Countries Most Affected**: The United States, India, Brazil, France, and Turkey were among the countries with the highest number of confirmed cases. The highest death tolls were recorded in the United States, Brazil, India, Mexico, and Peru.
 
-3. The worst affected countries
-Among the worst affected countries in this pandemic with a high confirmed cases were the United States, India, Brazil, France, Turkey among others. The united states, Brazil, india, Mexico and Peru wwere the contries with highest number of death cases. 
+8. **Countries Least Affected**: Kiribati, Samoa, Marshall Islands, Dominica, and Tanzania reported the lowest confirmed cases. The fewest deaths occurred in the Marshall Islands, Samoa, Kiribati, Dominica, and Bhutan.
 
-4 The least affected countries
-
-The top 5 countries with lowest confirmed cases were Kiribati(with 2 cases), Samoa(3), Marshall Islands (5), Dominica (189) and Tanzania (509).
-
-the top 5 countries with least death cases were Marshall Island(0), Samoa(0), Kiribati(0), Dominica(0) and Bhutan(1).
-
-5. Monthly average trends
-
+9. **High Recovery Cases**: India demonstrated a remarkable recovery rate, with 28.1 million citizens recovering over 18 months. Brazil, the United States, Turkey, and Russia also reported high numbers of recoveries.
 
 # Dashboard:
 

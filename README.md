@@ -158,11 +158,32 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
 
 # Summary of the Result:
 
-I have analyzed 78000 records of Covid 19 cases (Confirmed, Death, Recovered) over __ countries from January 2020 to June 2021 and found the following results:
-1. The trend for covid patients
-2. The % of death cases
-3 The worst affected countries
-4 The lease affected countries
+I have analyzed 78000 records of Covid 19 cases (Confirmed, Death, Recovered) of 121 countries from January 2020 to June 2021 and found the following results:
+1. The number of confirmed covid patients increased steadily from January 2020 unto July 2020 after which it dipped a bit before increasing rapidly from October to December. In 2021, number of confirmed cases were at peak during January after which it geadually decreases until March and rose again till April.
+
+The same goes for Recovered Cases. As the number of Confirmed corona patients increases so does the recovered patients.
+
+In case of death cases, we can see a sharp peak at April,2020 indicating an increase in deaths. After that death cases reduces before rising steadily from October till January 2021 when it was at its peak. After that it dropped till March and rose again in May and finally dropped in June.
+
+Looking at the three charts we can notice that when the recovery measures taken up by countries catches up with the confirmed corona cases, meaning they succeed in mitigating the effects of the pandemic the death rate decreases, as can be seen in initial months of Jan to March, again from May to September in 2020 and Feb and March in 2021.
+
+Number of death cases rises as the recovery measures cannot effectively catches up with the rapidly increasing corona cases as can be seen for April 2020, then from Oct 2020 to jan 2021.
+
+2. The % of death and recovered cases
+
+We can see that the ratio between death and confirmed cases is rather very small, about 0.0216 or ~2.16% which means that a very little fraction of the total world population has died in this pandemic.
+
+On the other hand, the ratio between recovered and confirmed cases is about 0.6689 or ~ 67%. That is about 67% of the corona patients recovered.
+
+3. The worst affected countries
+Among the worst affected countries in this pandemic with a high confirmed cases were the United States, India, Brazil, France, Turkey among others. The united states, Brazil, india, Mexico and Peru wwere the contries with highest number of death cases. 
+
+4 The least affected countries
+
+The top 5 countries with lowest confirmed cases were Kiribati(with 2 cases), Samoa(3), Marshall Islands (5), Dominica (189) and Tanzania (509).
+
+the top 5 countries with least death cases were Marshall Island(0), Samoa(0), Kiribati(0), Dominica(0) and Bhutan(1).
+
 5. Monthly average trends
 
 

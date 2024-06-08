@@ -158,25 +158,27 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
 
 # Summary of the Result:
 
-I have analyzed 78000 records of Covid 19 cases (Confirmed, Death, Recovered) of 121 countries from January 2020 to June 2021 and found the following results:
+I have analyzed 78,386 records of Covid 19 cases (Confirmed, Death, Recovered) of 121 countries from January 2020 to June 2021 and found the following results:
 
-1. **Confirmed Cases Trend**: From January to July 2020, there was a steady rise in confirmed COVID-19 cases, followed by a slight decline and then a sharp increase from October to December. In 2021, the peak occurred in January, with a subsequent gradual decline until March, before rising again through April.
+1. From January 2020 to June 2021, total 169,065,144 people were diagnosed with Novel Corona Virus (confirmed cases). The data shows that 3,647,894 people died during this period and 113,089,548 people recovered.
 
-2. **Recovery Correlation**: The trend in recovered cases mirrored that of confirmed cases, indicating that as more individuals were diagnosed, a corresponding number of patients recovered.
+2. **Confirmed Cases Trend**: From January to July 2020, there was a steady rise in confirmed COVID-19 cases, followed by a slight decline and then a sharp increase from October to December. In 2021, the peak occurred in January, with a subsequent gradual decline until March, before rising again through April.
 
-3. **Death Cases Analysis**: A significant spike in deaths was observed in April 2020. Following this, death cases decreased, only to rise steadily from October 2020 to January 2021, reaching a peak. The numbers then fell until March, rose in May, and declined again in June.
+3. **Recovery Correlation**: The trend in recovered cases mirrored that of confirmed cases, indicating that as more individuals were diagnosed, a corresponding number of patients recovered.
 
-4. **Impact of Recovery Measures**: An analysis of the charts suggests that effective recovery measures led to a decrease in death rates, as evidenced from January to March, May to September in 2020, and February to March in 2021. Conversely, death cases surged when recovery efforts lagged behind the rapid increase in confirmed cases, notably in April 2020 and from October 2020 to January 2021.
+4. **Death Cases Analysis**: A significant spike in deaths was observed in April 2020. Following this, death cases decreased, only to rise steadily from October 2020 to January 2021, reaching a peak. The numbers then fell until March, rose in May, and declined again in June.
 
-5. **Monthly Average Trends**: The monthly averages for confirmed, death, and recovered cases showed significant increases in January, April, and from August to December. Conversely, there were decreases in February and June.
+5. **Impact of Recovery Measures**: An analysis of the charts suggests that effective recovery measures led to a decrease in death rates, as evidenced from January to March, May to September in 2020, and February to March in 2021. Conversely, death cases surged when recovery efforts lagged behind the rapid increase in confirmed cases, notably in April 2020 and from October 2020 to January 2021.
 
-6. **Death and Recovery Percentages**: The death-to-confirmed case ratio was approximately 2.16%, indicating a relatively small impact on the global population. In contrast, the recovery-to-confirmed case ratio was about 67%, suggesting that a majority of patients recovered.
+6. **Monthly Average Trends**: The monthly averages for confirmed, death, and recovered cases showed significant increases in January, April, and from August to December. Conversely, there were decreases in February and June.
 
-7. **Countries Most Affected**: The United States, India, Brazil, France, and Turkey were among the countries with the highest number of confirmed cases. The highest death tolls were recorded in the United States, Brazil, India, Mexico, and Peru.
+7. **Death and Recovery Percentages**: The death-to-confirmed case ratio was approximately 2.16%, indicating a relatively small impact on the global population. In contrast, the recovery-to-confirmed case ratio was about 67%, suggesting that a majority of patients recovered.
 
-8. **Countries Least Affected**: Kiribati, Samoa, Marshall Islands, Dominica, and Tanzania reported the lowest confirmed cases. The fewest deaths occurred in the Marshall Islands, Samoa, Kiribati, Dominica, and Bhutan.
+8. **Countries Most Affected**: The United States, India, Brazil, France, and Turkey were among the countries with the highest number of confirmed cases. The highest death tolls were recorded in the United States, Brazil, India, Mexico, and Peru.
 
-9. **High Recovery Cases**: India demonstrated a remarkable recovery rate, with 28.1 million citizens recovering over 18 months. Brazil, the United States, Turkey, and Russia also reported high numbers of recoveries.
+9. **Countries Least Affected**: Kiribati, Samoa, Marshall Islands, Dominica, and Tanzania reported the lowest confirmed cases. The fewest deaths occurred in the Marshall Islands, Samoa, Kiribati, Dominica, and Bhutan.
+
+10. **High Recovery Cases**: India demonstrated a remarkable recovery rate, with 28.1 million citizens recovering over 18 months. Brazil, the United States, Turkey, and Russia also reported high numbers of recoveries.
 
 # Dashboard:
 
@@ -184,9 +186,32 @@ I have analyzed 78000 records of Covid 19 cases (Confirmed, Death, Recovered) of
 
 # Limitations of the Project:
 
+1. The dataset under analysis only encompasses Covid-19 cases from **January 2020 to June 2021**. However, the World Health Organization (WHO) declared the pandemic's Public Health Emergency of International Concern active until **5th May 2023**. This discrepancy means that the dataset does not provide a comprehensive view of the pandemic's full impact, as it excludes nearly two years of critical data.
 
+2. The dataset's structure limits the depth of statistical analysis that can be performed. It only includes three numerical columns - **Confirmed**, **Deaths**, and **Recovered** cases. The absence of additional quantitative data, such as hospitalization rates, testing rates, or severity of cases, restricts the range of statistical methods and insights that can be derived.
+
+3. The dataset lacks demographic patient data, such as age, gender, or underlying health conditions. This omission hinders the ability to perform segmentation analysis to identify the most and least vulnerable groups during the pandemic. Such information could have been instrumental in tailoring public health responses and vaccination strategies.
+
+4. The dataset does not include information about the mitigation measures implemented by the countries, such as lockdowns, travel restrictions, testing regimes, or vaccination rollouts. This lack of data prevents us from gaining insights into the effectiveness of different strategies in controlling the spread of the virus and mitigating its impact. Understanding these strategies could have provided valuable lessons for managing future public health crises.
 
 # Future Ideas:
 
+To address these limitations in future research, the following steps could be considered:
+
+1. **Extend the Time Frame**: To get a more comprehensive view of the pandemic, future research should aim to include data up to the most recent available date. This would provide a more complete picture of the effects of the virus and allow for analysis of the full duration of the pandemic. [Novel Corona Virus 2019 Dataset](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset) from Kaggle is a more comprehensive dataset where it contains daily level information on the number of affected cases, deaths and recovery from 2019 novel coronavirus from January 2020 to December 2021.
+
+2. **Incorporate Additional Quantitative Data**: Including more numerical columns such as hospitalization rates, testing rates, or severity of cases could allow for a wider range of statistical analyses. This could lead to more nuanced insights and a better understanding of the pandemic's dynamics.
+
+3. **Include Demographic Data**: Future research could benefit from including demographic data such as age, gender, and underlying health conditions. This would allow for segmentation analysis and could help identify the most vulnerable groups during the pandemic. Such information could be instrumental in tailoring public health responses and vaccination strategies.
+
+4. **Collect Data on Mitigation Measures**: Information about the mitigation measures implemented by countries could provide valuable insights into the effectiveness of different strategies. This could include data on lockdowns, travel restrictions, testing regimes, and vaccination rollouts. Understanding these strategies could provide valuable lessons for managing future public health crises.
+
+5. **Collaborate with Health Organizations and Governments**: Researchers could collaborate with health organizations and governments to access more comprehensive and detailed data. This could also help ensure that the data is accurate, reliable, and representative.
+
+6. **Use Advanced Analytical Techniques**: Advanced analytical techniques such as machine learning and predictive modeling could be used to gain deeper insights from the data and potentially uncover patterns and trends that might not be immediately apparent from traditional statistical analyses. 
+
+While addressing these limitations can enhance the quality of the research, it's also important to consider ethical guidelines and privacy laws when collecting and using data.
 
 # References:
+
+* [COVID-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic)

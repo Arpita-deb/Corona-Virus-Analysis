@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------
 /*
 
-Project Name: Epidemic Analytics - Evaluating COVID-19’s Global Footprint
+Project Name: Epidemic Analytics - Evaluating COVID-19â€™s Global Footprint
 Internship Organization: Mentorness
 By: Arpita Deb
 Dated: June,2024
@@ -156,7 +156,7 @@ WITH MonthlyCases AS (
 	[Confirmed], 
 	[Deaths],
 	[Recovered],
-        	ROW_NUMBER() OVER (PARTITION BY MONTH(Date) ORDER BY COUNT(*) DESC) AS RowNum
+        ROW_NUMBER() OVER (PARTITION BY MONTH(Date) ORDER BY COUNT(*) DESC) AS RowNum
     FROM 
 	[dbo].[CoronaVirusData]
     GROUP BY 
@@ -281,23 +281,23 @@ In this query:
 
 
 
--- Q11. Check how corona virus spread out with respect to confirmed cases per Month (e.g., total confirmed cases, their Average, Variance & Standard Deviation).
+-- Q11. Check how Corona Virus spread out with respect to confirmed cases per Month (e.g., total confirmed cases, their Average, Variance & Standard Deviation).
 
 WITH OrderedCases AS (
     SELECT 
-	[Confirmed],
-    ROW_NUMBER() OVER (ORDER BY [Confirmed]) AS RowNum,
-    COUNT(*) OVER () AS TotalCount
+    	[Confirmed],
+    	ROW_NUMBER() OVER (ORDER BY [Confirmed]) AS RowNum,
+    	COUNT(*) OVER () AS TotalCount
     FROM 
 	[dbo].[CoronaVirusData]
 )
 SELECT 
 	MONTH([Date]) AS Month_Num,
    	DATENAME(month, [Date]) AS Month,
-    SUM([Confirmed]) AS Total_Confirmed_Cases,
-    ROUND(AVG([Confirmed]),0) AS Avg_Confirmed_Cases,
+    	SUM([Confirmed]) AS Total_Confirmed_Cases,
+    	ROUND(AVG([Confirmed]),0) AS Avg_Confirmed_Cases,
    	MIN([Confirmed]) AS Min_Confirmed_Cases,
-    (SELECT 
+    	(SELECT 
 		[Confirmed] 
 	FROM 
 		OrderedCases 
@@ -305,17 +305,15 @@ SELECT
 		RowNum = (TotalCount + 1) / 2) AS Median_Confirmed_Cases,
 	MAX([Confirmed]) AS Max_Confirmed_Cases,
    	ROUND(VAR([Confirmed]),2) AS Variance,
-    ROUND(STDEV([Confirmed]),2) AS Standard_Deviation
+    	ROUND(STDEV([Confirmed]),2) AS Standard_Deviation
 FROM 
 	[dbo].[CoronaVirusData]
 GROUP BY 
-    MONTH([Date]),
+    	MONTH([Date]),
 	DATENAME(month, [Date])
 ORDER BY
 	MONTH([Date]),
 	DATENAME(month, [Date]);
-
-
 
 /*
 In this query:
@@ -324,7 +322,7 @@ In this query:
 2. To calculate the median value , I created a Common Table Expression (CTE) called OrderedCases.
 -- The ROW_NUMBER() function assigns a row number to each record, ordered by the confirmed cases.
 -- The COUNT(*) OVER () calculates the total count of records.
--- Finally, we select the median confirmed cases using a subquery.
+-- Finally, I selected the median confirmed cases using a subquery in the second SELECT statement.
 
 */
 
@@ -336,35 +334,34 @@ In this query:
 WITH OrderedCases AS (
     SELECT 
 	[Deaths],
-    ROW_NUMBER() OVER (ORDER BY [Deaths]) AS RowNum,
-    COUNT(*) OVER () AS TotalCount
+    	ROW_NUMBER() OVER (ORDER BY [Deaths]) AS RowNum,
+    	COUNT(*) OVER () AS TotalCount
     FROM 
 	[dbo].[CoronaVirusData]
 )
 SELECT 
 	MONTH([Date]) AS Month_Num,
-    DATENAME(month, [Date]) AS Month,
-    SUM([Deaths]) AS Total_Death_Cases,
-    ROUND(AVG([Deaths]),0) AS Avg_Death_Cases,
-    MIN([Deaths]) AS Min_Death_Cases,
-    (SELECT 
+    	DATENAME(month, [Date]) AS Month,
+    	SUM([Deaths]) AS Total_Death_Cases,
+    	ROUND(AVG([Deaths]),0) AS Avg_Death_Cases,
+    	MIN([Deaths]) AS Min_Death_Cases,
+    	(SELECT 
 		[Deaths] 
 	FROM 
 		OrderedCases 
 	WHERE 
 		RowNum = (TotalCount + 1) / 2) AS Median_Death_Cases,
 	MAX([Deaths]) AS Max_Death_Cases,
-    ROUND(VAR([Deaths]),2) AS Variance,
-    ROUND(STDEV([Deaths]),2) AS Standard_Deviation
+    	ROUND(VAR([Deaths]),2) AS Variance,
+    	ROUND(STDEV([Deaths]),2) AS Standard_Deviation
 FROM 
 	[dbo].[CoronaVirusData]
 GROUP BY 
-    MONTH([Date]),
+   	MONTH([Date]),
 	DATENAME(month, [Date])
 ORDER BY
 	MONTH([Date]),
 	DATENAME(month, [Date]);
-
 
 /*
 In this query:
@@ -386,35 +383,34 @@ In this query:
 WITH OrderedCases AS (
     SELECT 
 	[Recovered],
-    ROW_NUMBER() OVER (ORDER BY [Recovered]) AS RowNum,
-    COUNT(*) OVER () AS TotalCount
+    	ROW_NUMBER() OVER (ORDER BY [Recovered]) AS RowNum,
+    	COUNT(*) OVER () AS TotalCount
     FROM 
 	[dbo].[CoronaVirusData]
 )
 SELECT 
 	MONTH([Date]) AS Month_Num,
-    DATENAME(month, [Date]) AS Month,
-    SUM([Recovered]) AS Total_Recovered_Cases,
-    ROUND(AVG([Recovered]),0) AS Avg_Recovered_Cases,
-    MIN([Recovered]) AS Min_Recovered_Cases,
-    (SELECT 
+    	DATENAME(month, [Date]) AS Month,
+    	SUM([Recovered]) AS Total_Recovered_Cases,
+    	ROUND(AVG([Recovered]),0) AS Avg_Recovered_Cases,
+    	MIN([Recovered]) AS Min_Recovered_Cases,
+    	(SELECT 
 		[Recovered] 
 	FROM 
 		OrderedCases 
 	WHERE 
 		RowNum = (TotalCount + 1) / 2) AS Median_Recovered_Cases,
 	MAX([Recovered]) AS Max_Recovered_Cases,
-    ROUND(VAR([Recovered]),2) AS Variance,
-    ROUND(STDEV([Recovered]),2) AS Standard_Deviation
+    	ROUND(VAR([Recovered]),2) AS Variance,
+    	ROUND(STDEV([Recovered]),2) AS Standard_Deviation
 FROM 
 	[dbo].[CoronaVirusData]
 GROUP BY 
-    MONTH([Date]),
+    	MONTH([Date]),
 	DATENAME(month, [Date])
 ORDER BY
 	MONTH([Date]),
 	DATENAME(month, [Date]);
-
 
 /*
 In this query:

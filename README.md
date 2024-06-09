@@ -139,7 +139,7 @@ In simple terms, these statistics tell us that April saw the most cases overall,
 The **monthly summary statistics** give us a detailed look at the mortality rate of COVID-19 over time.
 
 - **Total count**: In case of death cases, April had the highest number of cases **554,220 death cases** among all the other months.
-- **Mean**: This is the average number of death cases per day in a month. December had the highest daily average (17), meaning that, on average, more people were dying due to COVID-19 each day in December than in other months.
+- **Mean**: This is the average number of death cases per day in a month. December had the highest daily average (71), meaning that, on average, more people were dying due to COVID-19 each day in December than in other months.
 - **Range**: This tells us the difference between the smallest and largest number of cases in a month. The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **7374** in June.
 - **Median**: This is the middle value of confirmed cases when they are arranged in order. For all months, the median was **0**, indicating that half the days had 0 cases, and the other half had more.
 - **Variance and Standard Deviation**: These are statistical measures of how much the number of cases varies from day to day within a month. A higher variance and standard deviation mean that the number of death cases was very inconsistent, with a lot of fluctuation from day to day. However, the monthly variance and standard deviations were lower compared to confirmed cases.
@@ -150,7 +150,7 @@ The **monthly summary statistics** give us a detailed look at the mortality rate
 
   ![13 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/17b6ec6e-51d9-4f4e-a94c-066972af25c5)
 
-The **monthly summary statistics** give us a detailed look at the spread of COVID-19 over time. They include several different numbers that help us understand the situation better:
+The **monthly summary statistics** give us a detailed look at the recovery rate of COVID-19 over time. They include several different numbers that help us understand the situation better:
 
 - **Total count**: This is the total number of recovered cases for a given month. For example, in May, **20,651,389** people cured, which was the highest for any month.
 - **Mean**: This is the average number of recovered cases per day in a month. December had the highest daily average (2498), meaning that, on average, more people were recovered from COVID-19 each day in December than in other months.

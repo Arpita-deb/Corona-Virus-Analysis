@@ -24,7 +24,7 @@ This project is done as a part of Mentorness Internship from 01/06/2024 to 12/06
 
 * Project Source Code: SQL file with queries
 * [Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
-* [Presentation Report](https://drive.google.com/file/d/1fbtrZ_OoYkPkuV38CfHGvbRvYCOWO_LZ/view?usp=sharing)
+* [Presentation Report](https://drive.google.com/file/d/1dj6pw7DB12NxdxLj5S5rj4aSoidRIbqo/view?usp=sharing)
 * [Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing) explaining the approach towards dataset, problem statement, inferences drawn, final outcome and future scope.
 
 # Tools Used:
@@ -265,6 +265,6 @@ To address these limitations in future research, the following steps could be co
 # Appendix:
 
 * [Power BI Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
-* [Epidemic Analytics Report Presentation](https://drive.google.com/file/d/1fbtrZ_OoYkPkuV38CfHGvbRvYCOWO_LZ/view?usp=sharing)
+* [Epidemic Analytics Report Presentation](https://drive.google.com/file/d/1dj6pw7DB12NxdxLj5S5rj4aSoidRIbqo/view?usp=sharing)
 * [Epidemic Analytics Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
 * [Epidemic Analytics - Analyzing Global Covid 19 cases using SQL Medium Article](https://medium.com/@arpita_deb/epidemic-analytics-530f222b1de7)

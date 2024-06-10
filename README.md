@@ -265,5 +265,5 @@ To address these limitations in future research, the following steps could be co
 # Appendix:
 
 * [Epidemic Analytics Report Presentation](https://drive.google.com/file/d/1fbtrZ_OoYkPkuV38CfHGvbRvYCOWO_LZ/view?usp=sharing)
-* Project Video Presentation
+* [Epidemic Analytics Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
 * [Epidemic Analytics - Analyzing Global Covid 19 cases using SQL](https://medium.com/@arpita_deb/epidemic-analytics-530f222b1de7)

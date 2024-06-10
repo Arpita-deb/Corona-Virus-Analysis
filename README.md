@@ -1,5 +1,7 @@
-# Global Trends: Analyzing COVID-19 Spread across Nations (January 2020 - June 2021)
-## SQL Analysis and Power BI Visualizations
+# Epidemic Analytics: Evaluating COVID-19’s Global Footprint
+## With SQL Analysis and Power BI Visualizations
+
+![Title Page](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/ed1e5617-8847-481a-bc99-589dfb47e4e0)
 
 The COVID-19 pandemic, which swept across the globe from early 2020 onwards, had profound and far-reaching effects on societies, economies, and healthcare systems worldwide. It led to widespread disruptions in daily life, severe strains on healthcare infrastructure, and significant socio-economic impacts. This analysis report examines the trajectory of confirmed cases, fatalities, and recoveries from COVID-19 across different countries during the critical period of 2020 to 2021, shedding light on the varying impacts and responses observed globally.
 
@@ -35,10 +37,11 @@ The CORONA VIRUS pandemic has had a significant impact on public health and has 
 
 # Methodologies Used:
 
-* Data Cleaning and Transformation
+* Data Cleaning
 * Data Analysis
 * Data Visualization
-* Reporting
+* Presentation
+* Documentation
 
 # Data Decription:
 
@@ -98,7 +101,9 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
 
   ![7 1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/8ec2337b-4305-4e61-b57f-faed891e7d6a)
   
-  The mode is the value that appears most frequently in a set of data. In the context of the COVID-19, a mode of 0 means that on more days than any other number, there were no new confirmed cases reported. This could indicate that there were several days with no spread of the infection or that no new cases were detected on those days. It’s a positive sign when the mode is 0, as it suggests there were periods with potentially very low transmission rates.
+  The mode is the value that appears most frequently in a set of data. In the context of the COVID-19, a mode of 0 means that on more days than any other number, there were no new confirmed cases reported. 
+  
+  This could indicate that there were several days with no spread of the infection or that no new cases were detected on those days. It’s a positive sign when the mode is 0, as it suggests there were periods with potentially very low transmission rates.
 
 ### Q8. Find the minimum values for confirmed, deaths, recovered per year.
 
@@ -170,20 +175,6 @@ The **monthly summary statistics** give us a detailed look at the recovery rate 
 
   ![16](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/5920af4c-6d14-42ab-9c98-3af934794c47)
 
-# Data Analysis:
-
-![monthly 3 cases line chart](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/de1999a5-2652-412f-8e95-aa525361985e)
-
-![average 3 cases](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/da1c9371-c4e4-4e88-9a89-c70dabc2090c)
-
-![top 10 countrie recovered](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/22e5cdc3-c466-4598-b4ad-f067c234f64d)
-
-![top 10 countries confirmed](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/c5b74056-0947-403e-9215-1ac9890e9ad9)
-
-![top 10 countries death](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/03d4dd07-6c9d-4088-9a75-b55e9e6f1ba1)
-
-![total 3 cases per month](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/bfae7e01-f6ce-4933-9d63-5fddddd31d23)
-
 # Summary of the Result:
 
 I have analyzed 78,386 records of Covid 19 cases (Confirmed, Death, Recovered) of 121 countries from January 2020 to June 2021 and found the following results:
@@ -191,55 +182,74 @@ I have analyzed 78,386 records of Covid 19 cases (Confirmed, Death, Recovered) o
 1. From January 2020 to June 2021, total 169,065,144 people were diagnosed with Novel Corona Virus (confirmed cases). The data shows that 3,647,894 people died during this period and 113,089,548 people recovered.
 
 2. **Confirmed Cases Trend**: From January to July 2020, there was a steady rise in confirmed COVID-19 cases, followed by a slight decline and then a sharp increase from October to December. In 2021, the peak occurred in January, with a subsequent gradual decline until March, before rising again through April.
+   
+  ![monthly confirmed line chart](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/89d472a8-4f25-465f-95ea-7f0279d8f3ff)
 
-3. **Recovery Correlation**: The trend in recovered cases mirrored that of confirmed cases, indicating that as more individuals were diagnosed, a corresponding number of patients recovered.
+3. **Death Cases Trend**: A significant spike in deaths was observed in April 2020. Following this, death cases decreased, only to rise steadily from October 2020 to January 2021, reaching a peak. The numbers then fell until March, rose in May, and declined again in June.
 
-4. **Death Cases Analysis**: A significant spike in deaths was observed in April 2020. Following this, death cases decreased, only to rise steadily from October 2020 to January 2021, reaching a peak. The numbers then fell until March, rose in May, and declined again in June.
+  ![monthly death line chart](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/541ee82b-6637-4a68-839a-78f4de3ea1d3)
+
+4. **Recovered Cases Trend**: The trend in recovered cases mirrored that of confirmed cases, indicating that as more individuals were diagnosed, a corresponding number of patients recovered.
+
+  ![monthly recovered line chart](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/9c74b2a6-90c5-4385-adce-a21aadc23578)
 
 5. **Impact of Recovery Measures**: An analysis of the charts suggests that effective recovery measures led to a decrease in death rates, as evidenced from January to March, May to September in 2020, and February to March in 2021. Conversely, death cases surged when recovery efforts lagged behind the rapid increase in confirmed cases, notably in April 2020 and from October 2020 to January 2021.
 
+  ![monthly 3 cases line chart](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/d038074a-7a14-45b7-8eba-15924dd2c1cf)  
+
 6. **Monthly Average Trends**: The monthly averages for confirmed, death, and recovered cases showed significant increases in January, April, and from August to December. Conversely, there were decreases in February and June.
+
+  ![average 3 cases](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/da1c9371-c4e4-4e88-9a89-c70dabc2090c)
 
 7. **Death and Recovery Percentages**: The death-to-confirmed case ratio was approximately 2.16%, indicating a relatively small impact on the global population. In contrast, the recovery-to-confirmed case ratio was about 67%, suggesting that a majority of patients recovered.
 
-8. **Countries Most Affected**: The United States, India, Brazil, France, and Turkey were among the countries with the highest number of confirmed cases. The highest death tolls were recorded in the United States, Brazil, India, Mexico, and Peru.
+8. **Countries Most Affected**: The United States, India, Brazil, France, and Turkey were among the countries with the highest number of confirmed cases.
+   
+  ![top 5 countries by confirmed cases](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/796f9774-7a49-4858-bb2f-144b33e1415e)
+
+ The highest death tolls were recorded in the United States, Brazil, India, Mexico, and Peru.
+
+  ![top 5 countries by death case](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/9d251912-4637-43c1-a843-fdf2d5898945)
 
 9. **Countries Least Affected**: Kiribati, Samoa, Marshall Islands, Dominica, and Tanzania reported the lowest confirmed cases. The fewest deaths occurred in the Marshall Islands, Samoa, Kiribati, Dominica, and Bhutan.
 
 10. **High Recovery Cases**: India demonstrated a remarkable recovery rate, with 28.1 million citizens recovering over 18 months. Brazil, the United States, Turkey, and Russia also reported high numbers of recoveries.
 
+  ![top 5 countrie by recovered case](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/bc86eebc-2f37-4ca1-8991-6f716d4adced)
+
+
 # Dashboard:
 
-
+![dashboard](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/8316524e-0376-4f18-969e-19b14a262b45)
 
 # Limitations of the Project:
 
-1. The dataset under analysis only encompasses Covid-19 cases from **January 2020 to June 2021**. However, the World Health Organization (WHO) declared the pandemic's Public Health Emergency of International Concern active until **5th May 2023**. This discrepancy means that the dataset does not provide a comprehensive view of the pandemic's full impact, as it excludes nearly two years of critical data.
+* Incomplete Timeline: The dataset covers Covid-19 cases only from January 2020 to June 2021, missing nearly two years of data up to May 2023 when the WHO’s emergency declaration ended.
 
-2. The dataset's structure limits the depth of statistical analysis that can be performed. It only includes three numerical columns - **Confirmed**, **Deaths**, and **Recovered** cases. The absence of additional quantitative data, such as hospitalization rates, testing rates, or severity of cases, restricts the range of statistical methods and insights that can be derived.
+* Limited Data for Analysis: With just three columns for confirmed, deaths, and recovered cases, the dataset lacks depth, omitting key statistics like hospitalization and testing rates needed for a thorough analysis.
 
-3. The dataset lacks demographic patient data, such as age, gender, or underlying health conditions. This omission hinders the ability to perform segmentation analysis to identify the most and least vulnerable groups during the pandemic. Such information could have been instrumental in tailoring public health responses and vaccination strategies.
+* No Demographic Details: The absence of patient demographics such as age, gender, and health conditions prevents detailed group analysis and affects strategy development for public health responses.
 
-4. The dataset does not include information about the mitigation measures implemented by the countries, such as lockdowns, travel restrictions, testing regimes, or vaccination rollouts. This lack of data prevents us from gaining insights into the effectiveness of different strategies in controlling the spread of the virus and mitigating its impact. Understanding these strategies could have provided valuable lessons for managing future public health crises.
+* Missing Mitigation Measures: Information on country-specific actions like lockdowns and vaccinations is not included, limiting understanding of their effectiveness in managing the pandemic’s spread and impact.
 
 # Future Ideas:
 
 To address these limitations in future research, the following steps could be considered:
 
-1. **Extend the Time Frame**: To get a more comprehensive view of the pandemic, future research should aim to include data up to the most recent available date. This would provide a more complete picture of the effects of the virus and allow for analysis of the full duration of the pandemic. [Novel Corona Virus 2019 Dataset](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset) from Kaggle is a more comprehensive dataset where it contains daily level information on the number of affected cases, deaths and recovery from 2019 novel coronavirus from January 2020 to December 2021.
+* Update the Dataset: Include data up to the latest date to capture the entire scope of the pandemic.
 
-2. **Incorporate Additional Quantitative Data**: Including more numerical columns such as hospitalization rates, testing rates, or severity of cases could allow for a wider range of statistical analyses. This could lead to more nuanced insights and a better understanding of the pandemic's dynamics.
+* Expand Data Points: Add more data types like hospitalization and testing rates for richer analysis.
 
-3. **Include Demographic Data**: Future research could benefit from including demographic data such as age, gender, and underlying health conditions. This would allow for segmentation analysis and could help identify the most vulnerable groups during the pandemic. Such information could be instrumental in tailoring public health responses and vaccination strategies.
+* Add Patient Demographics: Collect age, gender, and health condition data to identify vulnerable populations and improve health strategies.
 
-4. **Collect Data on Mitigation Measures**: Information about the mitigation measures implemented by countries could provide valuable insights into the effectiveness of different strategies. This could include data on lockdowns, travel restrictions, testing regimes, and vaccination rollouts. Understanding these strategies could provide valuable lessons for managing future public health crises.
-
-5. **Collaborate with Health Organizations and Governments**: Researchers could collaborate with health organizations and governments to access more comprehensive and detailed data. This could also help ensure that the data is accurate, reliable, and representative.
-
-6. **Use Advanced Analytical Techniques**: Advanced analytical techniques such as machine learning and predictive modeling could be used to gain deeper insights from the data and potentially uncover patterns and trends that might not be immediately apparent from traditional statistical analyses. 
-
-While addressing these limitations can enhance the quality of the research, it's also important to consider ethical guidelines and privacy laws when collecting and using data.
+* Leverage Advanced Analytics: Use machine learning and predictive models to reveal deeper insights and patterns in the data.
 
 # References:
 
 * [COVID-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic)
+
+# Appendix:
+
+* Project Report
+* Project Video Presentation
+* [Epidemic Analytics - Analyzing Global Covid 19 cases using SQL]()

@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------
 /*
 
-Project Name: Epidemic Analytics - Evaluating COVID-19’s Global Footprint
+Project Name: Epidemic Analytics - Evaluating COVID-19â€™s Global Footprint
 Internship Organization: Mentorness
 By: Arpita Deb
 Dated: June,2024
@@ -156,7 +156,7 @@ WITH MonthlyCases AS (
 	[Confirmed], 
 	[Deaths],
 	[Recovered],
-        	ROW_NUMBER() OVER (PARTITION BY MONTH(Date) ORDER BY COUNT(*) DESC) AS RowNum
+        ROW_NUMBER() OVER (PARTITION BY MONTH(Date) ORDER BY COUNT(*) DESC) AS RowNum
     FROM 
 	[dbo].[CoronaVirusData]
     GROUP BY 

@@ -23,9 +23,9 @@ This project is done as a part of Mentorness Internship from 01/06/2024 to 12/06
 # Deliverables: 
 
 * Project Source Code: SQL file with queries
-* Dashboard
-* Presentation Report
-* Video Presentation explaining the approach towards dataset, problem statement, inferences drawn, final outcome and future scope
+* [Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
+* [Presentation Report](https://drive.google.com/file/d/1fbtrZ_OoYkPkuV38CfHGvbRvYCOWO_LZ/view?usp=sharing)
+* [Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing) explaining the approach towards dataset, problem statement, inferences drawn, final outcome and future scope.
 
 # Tools Used:
 
@@ -264,6 +264,7 @@ To address these limitations in future research, the following steps could be co
 
 # Appendix:
 
+* [Power BI Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
 * [Epidemic Analytics Report Presentation](https://drive.google.com/file/d/1fbtrZ_OoYkPkuV38CfHGvbRvYCOWO_LZ/view?usp=sharing)
 * [Epidemic Analytics Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
-* [Epidemic Analytics - Analyzing Global Covid 19 cases using SQL](https://medium.com/@arpita_deb/epidemic-analytics-530f222b1de7)
+* [Epidemic Analytics - Analyzing Global Covid 19 cases using SQL Medium Article](https://medium.com/@arpita_deb/epidemic-analytics-530f222b1de7)

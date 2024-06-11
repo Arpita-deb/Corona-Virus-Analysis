@@ -482,7 +482,6 @@ ORDER BY
 
 
 
-
 -- Counting the number of countries present in the dataset.
 SELECT 
 	COUNT (DISTINCT [Country/Region]) AS Number_of_Countries
@@ -493,6 +492,7 @@ FROM
 
 
 -- Total number of confirmed, death and recovered cases.
+
 SELECT 
 	SUM([Confirmed]) AS Total_Confirmed_Cases,
 	SUM([Deaths]) AS Total_Death_Cases,
@@ -504,6 +504,7 @@ FROM
 
 
 -- Ratio of Death-to-Confirmed and Recovered-to-Confirmed corona cases 
+
 SELECT 
 	ROUND(SUM([Deaths])/SUM([Confirmed]),4) AS Death_to_Confirmed_Ratio,
 	ROUND(SUM([Recovered])/SUM([Confirmed]),4) AS Recovered_to_Confirmed_Ratio
@@ -578,6 +579,7 @@ ORDER BY
 
 
 -- Top 10 countries with lowest death cases
+
 SELECT 
 	TOP 10 [Country/Region], 
 	SUM([Deaths]) AS Death_Cases

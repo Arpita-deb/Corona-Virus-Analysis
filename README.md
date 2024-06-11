@@ -3,7 +3,9 @@
 
 ![Title Page](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/ed1e5617-8847-481a-bc99-589dfb47e4e0)
 
-The COVID-19 pandemic, which swept across the globe from early 2020 onwards, had profound and far-reaching effects on societies, economies, and healthcare systems worldwide. It led to widespread disruptions in daily life, severe strains on healthcare infrastructure, and significant socio-economic impacts. This analysis report examines the trajectory of confirmed cases, fatalities, and recoveries from COVID-19 across different countries during the critical period of 2020 to 2021, shedding light on the varying impacts and responses observed globally.
+The COVID-19 pandemic, which swept across the globe from early 2020 onwards, had profound and far-reaching effects on societies, economies, and healthcare systems worldwide. It led to widespread disruptions in daily life, severe strains on healthcare infrastructure, and significant socio-economic impacts. 
+
+This analysis report examines the trajectory of confirmed cases, fatalities, and recoveries from COVID-19 across different countries during the critical period of 2020 to 2021, shedding light on the varying impacts and responses observed globally.
 
 # About the Internship:
 
@@ -69,13 +71,13 @@ The Dataset contains 78387 rows and 8 columns that provides information about th
 
 # Data Exploration:
 
-I am tasked to find answers to these 16 questions using SQL queries. So here I'll provide the answers.
+I am tasked to find answers to these 16 questions using SQL queries.
 
 ### Q1. Write a code to check NULL values.
 
   ![1](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/e22d3aeb-546a-435a-88f9-467a754a381b)
 
-### Q2. If NULL values are present, update them with zeros for all columns. 
+### Q2. If Null values are present, update them with zeros for all columns. 
 
   There were no Null values present in the dataset.
 
@@ -83,11 +85,11 @@ I am tasked to find answers to these 16 questions using SQL queries. So here I'l
 
   ![3](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/481be551-b253-4c73-a995-1991ad2386d3)
 
-### Q4. What are the start and end date in this dataset.
+### Q4. What are the start and end date in this dataset?
 
   ![4](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/fa38b1f0-7085-4a78-bb7d-410e1a2860e0)
 
-### Q5. Find the number of month present in the dataset.
+### Q5. Find the number of months present in the dataset.
 
   ![5](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/7a806a4c-ee6f-4f59-9b86-bc4a149ec392)
 
@@ -97,7 +99,7 @@ The data spans from January 2020 to June 2021, which gives us total 18 months of
 
   ![6](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/bc798c5a-6e56-42a4-a8cb-76b8ac31b177)
 
-### Q7. Find most frequent value for confirmed, deaths, recovered each month. 
+### Q7. Find most frequent value for confirmed, deaths, recovered cases each month. 
 
   ![7](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/867a67d0-4932-4ea6-815c-ef92003c8236)
 
@@ -110,8 +112,6 @@ The data spans from January 2020 to June 2021, which gives us total 18 months of
 ### Q8. Find the minimum values for confirmed, deaths, recovered per year.
 
   ![8](https://github.com/Arpita-deb/-Corona-Virus-Analysis/assets/139372731/4767b9e6-326d-4b6f-a5d2-f1ef3ad5ba2d)
-
- The minimum value was 0 for confirmed, deaths, recovered per year.
 
 ### Q9. Find the maximum values of confirmed, deaths, recovered per year.
 
@@ -133,7 +133,7 @@ The **monthly summary statistics** give us a detailed look at the spread of COVI
 
 - **Mean**: This is the average number of cases per day in a month. December had the highest daily average, meaning that, on average, more people were confirmed to have COVID-19 each day in December than in other months.
 
-- **Range**: This tells us the difference between the smallest and largest number of cases in a month. The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **823,225**.
+- **Range**: This tells us the difference between the smallest and largest number of cases in a month. The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **823,225** in December.
 
 - **Median**: This is the middle value of confirmed cases when they are arranged in order. For all months, the median was **23**, indicating that half the days had fewer than 23 cases, and the other half had more.
 
@@ -151,13 +151,13 @@ The **monthly summary statistics** give us a detailed look at the mortality rate
 
 - **Total count**: In case of death cases, April had the highest number of cases **554,220 death cases** among all the other months.
 
-- **Mean**: This is the average number of death cases per day in a month. December had the highest daily average (71), meaning that, on average, more people were dying due to COVID-19 each day in December than in other months.
+- **Mean**: December had the highest daily average (71), meaning that, on average, more people were dying due to COVID-19 each day in December than in other months.
 
-- **Range**: This tells us the difference between the smallest and largest number of cases in a month. The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **7374** in June.
+- **Range**: The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **7374** in June.
 
-- **Median**: This is the middle value of confirmed cases when they are arranged in order. For all months, the median was **0**, indicating that half the days had 0 cases, and the other half had more.
+- **Median**: For all months, the median was **0**, indicating that half the days had 0 cases, and the other half had more.
 
-- **Variance and Standard Deviation**: These are statistical measures of how much the number of cases varies from day to day within a month. A higher variance and standard deviation mean that the number of death cases was very inconsistent, with a lot of fluctuation from day to day. However, the monthly variance and standard deviations were lower compared to confirmed cases.
+- **Variance and Standard Deviation**: These are statistical measures of how much the number of cases varies from day to day within a month. A higher variance and standard deviation mean that the number of death cases was very inconsistent, with a lot of fluctuation from day to day. However, the monthly variance and standard deviations for death cases were lower compared to confirmed cases.
 
 ### Q13. Check how Corona Virus spread out with respect to recovered case per month (e.g., total confirmed cases, their average, variance & Standard Deviation).
 
@@ -167,15 +167,15 @@ The **monthly summary statistics** give us a detailed look at the mortality rate
 
 The **monthly summary statistics** give us a detailed look at the recovery rate of COVID-19 over time. 
 
-- **Total count**: This is the total number of recovered cases for a given month. For example, in May, **20,651,389** people cured, which was the highest for any month.
+- **Total count**: In May, **20,651,389** people cured, which was the highest for any month.
 
-- **Mean**: This is the average number of recovered cases per day in a month. December had the highest daily average (2498), meaning that, on average, more people were recovered from COVID-19 each day in December than in other months.
+- **Mean**: December had the highest daily average (2498), meaning that, on average, more people were recovered from COVID-19 each day in December than in other months.
 
-- **Range**: This tells us the difference between the smallest and largest number of cases in a month. The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **1,123,456** in December.
+- **Range**: The minimum number of cases in any month was **0**, and the maximum number varied, with the highest being **1,123,456** in December.
 
-- **Median**: This is the middle value of recovered cases when they are arranged in order. For all months, the median was **2**, indicating that half the days had fewer than 2 recovered cases, and the other half had more.
+- **Median**: For all months, the median was **2**, indicating that half the days had fewer than 2 recovered cases, and the other half had more.
 
-- **Variance and Standard Deviation**: These are statistical measures of how much the number of cases varies from day to day within a month. A higher variance and standard deviation mean that the number of recovered cases was very inconsistent, with a lot of fluctuation from day to day. Most months had high variance and standard deviation, indicating that the number of recovered cases each day was quite unpredictable.
+- **Variance and Standard Deviation**: Most months had high variance and standard deviation, indicating that the number of recovered cases each day was quite unpredictable.
   
 ### Q14. Find the Country having the highest number of the Confirmed case.
 

@@ -1,7 +1,7 @@
 # Epidemic Analytics: Evaluating COVID-19’s Global Footprint
 ## With SQL Analysis and Power BI Visualizations
 
-![Title Page](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/ed1e5617-8847-481a-bc99-589dfb47e4e0)
+![Banner](https://github.com/Arpita-deb/Corona-Virus-Analysis/assets/139372731/e0de1f6c-28cd-4b36-8648-82f5a6b80335)
 
 The COVID-19 pandemic, which swept across the globe from early 2020 onwards, had profound and far-reaching effects on societies, economies, and healthcare systems worldwide. It led to widespread disruptions in daily life, severe strains on healthcare infrastructure, and significant socio-economic impacts. 
 
